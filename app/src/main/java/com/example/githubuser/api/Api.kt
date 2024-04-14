@@ -23,7 +23,7 @@ interface Api {
 //    ): Call<ReposDetailResponse>
 
     @GET("users/{username}/repos")
-    @Headers("Authorization: token ")
+    @Headers("Authorization: token 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")
     fun getRepos(
         @Path("username") username: String
     ):retrofit2.Call<ReposInformationResponse>
